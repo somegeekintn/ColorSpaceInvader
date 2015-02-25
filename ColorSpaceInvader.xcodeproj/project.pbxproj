@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9EDCB551A9E72CB00EA7655 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EDCB541A9E72CB00EA7655 /* AppDelegate.m */; };
+		C9EDCB571A9E72CB00EA7655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EDCB561A9E72CB00EA7655 /* main.m */; };
+		C9EDCB591A9E72CB00EA7655 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9EDCB581A9E72CB00EA7655 /* Images.xcassets */; };
+		C9EDCB5C1A9E72CB00EA7655 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9EDCB5A1A9E72CB00EA7655 /* MainMenu.xib */; };
+		C9EDCB681A9E72CB00EA7655 /* ColorSpaceInvaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EDCB671A9E72CB00EA7655 /* ColorSpaceInvaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9EDCB621A9E72CB00EA7655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9EDCB461A9E72CB00EA7655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9EDCB4D1A9E72CB00EA7655;
+			remoteInfo = ColorSpaceInvader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9EDCB4E1A9E72CB00EA7655 /* ColorSpaceInvader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSpaceInvader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9EDCB521A9E72CB00EA7655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9EDCB531A9E72CB00EA7655 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9EDCB541A9E72CB00EA7655 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9EDCB561A9E72CB00EA7655 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9EDCB581A9E72CB00EA7655 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9EDCB5B1A9E72CB00EA7655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C9EDCB611A9E72CB00EA7655 /* ColorSpaceInvaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorSpaceInvaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9EDCB661A9E72CB00EA7655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9EDCB671A9E72CB00EA7655 /* ColorSpaceInvaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorSpaceInvaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9EDCB4B1A9E72CB00EA7655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9EDCB5E1A9E72CB00EA7655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9EDCB451A9E72CB00EA7655 = {
+			isa = PBXGroup;
+			children = (
+				C9EDCB501A9E72CB00EA7655 /* ColorSpaceInvader */,
+				C9EDCB641A9E72CB00EA7655 /* ColorSpaceInvaderTests */,
+				C9EDCB4F1A9E72CB00EA7655 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9EDCB4F1A9E72CB00EA7655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9EDCB4E1A9E72CB00EA7655 /* ColorSpaceInvader.app */,
+				C9EDCB611A9E72CB00EA7655 /* ColorSpaceInvaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9EDCB501A9E72CB00EA7655 /* ColorSpaceInvader */ = {
+			isa = PBXGroup;
+			children = (
+				C9EDCB531A9E72CB00EA7655 /* AppDelegate.h */,
+				C9EDCB541A9E72CB00EA7655 /* AppDelegate.m */,
+				C9EDCB581A9E72CB00EA7655 /* Images.xcassets */,
+				C9EDCB5A1A9E72CB00EA7655 /* MainMenu.xib */,
+				C9EDCB511A9E72CB00EA7655 /* Supporting Files */,
+			);
+			path = ColorSpaceInvader;
+			sourceTree = "<group>";
+		};
+		C9EDCB511A9E72CB00EA7655 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9EDCB521A9E72CB00EA7655 /* Info.plist */,
+				C9EDCB561A9E72CB00EA7655 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9EDCB641A9E72CB00EA7655 /* ColorSpaceInvaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9EDCB671A9E72CB00EA7655 /* ColorSpaceInvaderTests.m */,
+				C9EDCB651A9E72CB00EA7655 /* Supporting Files */,
+			);
+			path = ColorSpaceInvaderTests;
+			sourceTree = "<group>";
+		};
+		C9EDCB651A9E72CB00EA7655 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9EDCB661A9E72CB00EA7655 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9EDCB4D1A9E72CB00EA7655 /* ColorSpaceInvader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9EDCB6B1A9E72CB00EA7655 /* Build configuration list for PBXNativeTarget "ColorSpaceInvader" */;
+			buildPhases = (
+				C9EDCB4A1A9E72CB00EA7655 /* Sources */,
+				C9EDCB4B1A9E72CB00EA7655 /* Frameworks */,
+				C9EDCB4C1A9E72CB00EA7655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorSpaceInvader;
+			productName = ColorSpaceInvader;
+			productReference = C9EDCB4E1A9E72CB00EA7655 /* ColorSpaceInvader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9EDCB601A9E72CB00EA7655 /* ColorSpaceInvaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9EDCB6E1A9E72CB00EA7655 /* Build configuration list for PBXNativeTarget "ColorSpaceInvaderTests" */;
+			buildPhases = (
+				C9EDCB5D1A9E72CB00EA7655 /* Sources */,
+				C9EDCB5E1A9E72CB00EA7655 /* Frameworks */,
+				C9EDCB5F1A9E72CB00EA7655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9EDCB631A9E72CB00EA7655 /* PBXTargetDependency */,
+			);
+			name = ColorSpaceInvaderTests;
+			productName = ColorSpaceInvaderTests;
+			productReference = C9EDCB611A9E72CB00EA7655 /* ColorSpaceInvaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9EDCB461A9E72CB00EA7655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Quiet Spark";
+				TargetAttributes = {
+					C9EDCB4D1A9E72CB00EA7655 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C9EDCB601A9E72CB00EA7655 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C9EDCB4D1A9E72CB00EA7655;
+					};
+				};
+			};
+			buildConfigurationList = C9EDCB491A9E72CB00EA7655 /* Build configuration list for PBXProject "ColorSpaceInvader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9EDCB451A9E72CB00EA7655;
+			productRefGroup = C9EDCB4F1A9E72CB00EA7655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9EDCB4D1A9E72CB00EA7655 /* ColorSpaceInvader */,
+				C9EDCB601A9E72CB00EA7655 /* ColorSpaceInvaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9EDCB4C1A9E72CB00EA7655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9EDCB591A9E72CB00EA7655 /* Images.xcassets in Resources */,
+				C9EDCB5C1A9E72CB00EA7655 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9EDCB5F1A9E72CB00EA7655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9EDCB4A1A9E72CB00EA7655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9EDCB571A9E72CB00EA7655 /* main.m in Sources */,
+				C9EDCB551A9E72CB00EA7655 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9EDCB5D1A9E72CB00EA7655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9EDCB681A9E72CB00EA7655 /* ColorSpaceInvaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9EDCB631A9E72CB00EA7655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9EDCB4D1A9E72CB00EA7655 /* ColorSpaceInvader */;
+			targetProxy = C9EDCB621A9E72CB00EA7655 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9EDCB5A1A9E72CB00EA7655 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9EDCB5B1A9E72CB00EA7655 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9EDCB691A9E72CB00EA7655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C9EDCB6A1A9E72CB00EA7655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9EDCB6C1A9E72CB00EA7655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ColorSpaceInvader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9EDCB6D1A9E72CB00EA7655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ColorSpaceInvader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C9EDCB6F1A9E72CB00EA7655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColorSpaceInvaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorSpaceInvader.app/Contents/MacOS/ColorSpaceInvader";
+			};
+			name = Debug;
+		};
+		C9EDCB701A9E72CB00EA7655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColorSpaceInvaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorSpaceInvader.app/Contents/MacOS/ColorSpaceInvader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9EDCB491A9E72CB00EA7655 /* Build configuration list for PBXProject "ColorSpaceInvader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9EDCB691A9E72CB00EA7655 /* Debug */,
+				C9EDCB6A1A9E72CB00EA7655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9EDCB6B1A9E72CB00EA7655 /* Build configuration list for PBXNativeTarget "ColorSpaceInvader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9EDCB6C1A9E72CB00EA7655 /* Debug */,
+				C9EDCB6D1A9E72CB00EA7655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9EDCB6E1A9E72CB00EA7655 /* Build configuration list for PBXNativeTarget "ColorSpaceInvaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9EDCB6F1A9E72CB00EA7655 /* Debug */,
+				C9EDCB701A9E72CB00EA7655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9EDCB461A9E72CB00EA7655 /* Project object */;
+}
