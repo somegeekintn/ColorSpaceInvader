@@ -12,6 +12,8 @@
 		C9EDCB591A9E72CB00EA7655 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9EDCB581A9E72CB00EA7655 /* Images.xcassets */; };
 		C9EDCB5C1A9E72CB00EA7655 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9EDCB5A1A9E72CB00EA7655 /* MainMenu.xib */; };
 		C9EDCB681A9E72CB00EA7655 /* ColorSpaceInvaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EDCB671A9E72CB00EA7655 /* ColorSpaceInvaderTests.m */; };
+		C9EDCB731A9E746600EA7655 /* DropView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EDCB721A9E746600EA7655 /* DropView.m */; };
+		C9EDCB761A9E78EF00EA7655 /* ColorSpacerScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EDCB751A9E78EF00EA7655 /* ColorSpacerScanner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,10 @@
 		C9EDCB611A9E72CB00EA7655 /* ColorSpaceInvaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorSpaceInvaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9EDCB661A9E72CB00EA7655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9EDCB671A9E72CB00EA7655 /* ColorSpaceInvaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorSpaceInvaderTests.m; sourceTree = "<group>"; };
+		C9EDCB711A9E746600EA7655 /* DropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropView.h; sourceTree = "<group>"; };
+		C9EDCB721A9E746600EA7655 /* DropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropView.m; sourceTree = "<group>"; };
+		C9EDCB741A9E78EF00EA7655 /* ColorSpacerScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSpacerScanner.h; sourceTree = "<group>"; };
+		C9EDCB751A9E78EF00EA7655 /* ColorSpacerScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSpacerScanner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,10 @@
 			children = (
 				C9EDCB531A9E72CB00EA7655 /* AppDelegate.h */,
 				C9EDCB541A9E72CB00EA7655 /* AppDelegate.m */,
+				C9EDCB741A9E78EF00EA7655 /* ColorSpacerScanner.h */,
+				C9EDCB751A9E78EF00EA7655 /* ColorSpacerScanner.m */,
+				C9EDCB711A9E746600EA7655 /* DropView.h */,
+				C9EDCB721A9E746600EA7655 /* DropView.m */,
 				C9EDCB581A9E72CB00EA7655 /* Images.xcassets */,
 				C9EDCB5A1A9E72CB00EA7655 /* MainMenu.xib */,
 				C9EDCB511A9E72CB00EA7655 /* Supporting Files */,
@@ -211,6 +221,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9EDCB571A9E72CB00EA7655 /* main.m in Sources */,
+				C9EDCB731A9E746600EA7655 /* DropView.m in Sources */,
+				C9EDCB761A9E78EF00EA7655 /* ColorSpacerScanner.m in Sources */,
 				C9EDCB551A9E72CB00EA7655 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
